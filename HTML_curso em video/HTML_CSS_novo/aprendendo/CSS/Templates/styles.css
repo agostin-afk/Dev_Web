@@ -1,0 +1,29 @@
+@charset "UTF-8";
+:root{
+    --color: rgba(0, 0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: var(--color);
+}
+header{
+    color: var(--color);
+}
+nav{
+    color:var(--color);
+}
+main{
+    color:var(--color);
+}
+article{
+    color: var(--color);
+}
+aside{
+    color:var(--color);
+}
+footer{
+    color:var(--color)
+}

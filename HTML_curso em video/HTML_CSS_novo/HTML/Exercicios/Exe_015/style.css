@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body{
+    background-color: lightskyblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    color: darkred;
+    background-color: aquamarine;
+    padding: 5px;
+}
+h2{
+    color: brown;
+    background-color: aqua;
+    padding: 5px;
+}
+p{
+    text-align: justify;
+}
+a{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    position: absolute;
+    left: 40%;
+}

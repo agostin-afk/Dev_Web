@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #252525;
+            color: whitesmoke;
+            font: normal 16px Arial, Verdana, Serif;
+        }
+        a{
+            text-decoration: none;
+            color:aquamarine;
+            display: inline-block;
+            padding: 5px;
+            font-weight: bold;
+        }
+        a::after{
+            content: " [Link]";
+            color: gray;
+            font-weight: normal;
+        }
+        a:visited{
+            color: indigo;
+        }
+        a:active{
+            color: whitesmoke;
+        }
+        p{
+            text-align: justify;
+        }
+        footer > p{
+            text-align: center;
+            margin: 0px;
+        }
+        footer{
+            background-color: black;
+            padding: 10px;
+        }
+        nav{
+            background-color: #0a0a0a;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        header{
+            background-color:rgb(99, 98, 98);
+            padding: 1px 7px 10px 7px;
+        }
+        header h1{
+            margin-left: 10px;
+        }
+        main{
+            background-color: rgb(99, 98, 98);
+        }
+        section#noticias{
+            background-color: rgb(117, 116, 116);
+        }
+        section#noticias > article > aside{
+            background-color: rgb(68, 68, 68);
+            
+        }
+        section#noticias > article > aside > p{
+            text-align: center;
+        }
+        section#noticias > article{
+            background-color:  rgb(87, 87, 87);;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            Meu site
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="##">Link</a>
+            <a href="###">Link</a>
+            <a href="####">Link</a>
+            <a href="#####">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assutos">
+
+        </section>
+        <section id="noticias">
+            <h2>Brasil, esporte e tecnologia</h2>
+            <article>
+                <h3>Notícias sobre o Brasil</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni harum doloribus dolorem unde quidem reprehenderit doloremque, fugiat qui dolore recusandae repellendus rem omnis, illum perferendis impedit aliquam velit neque quod?</p>
+                <aside>
+                    <p>Artigo criado pelo agostin :D</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo agostin :D</p>
+    </footer>
+</body>
+</html>

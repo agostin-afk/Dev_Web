@@ -1,0 +1,44 @@
+*{
+    color: black;
+}
+#conteudo{
+    width: 600px;
+    height: 1200px;
+    background-color: red;
+    position: relative;
+}
+#bloco01{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    float: right;
+    position: fixed;
+    left: 308px;
+}
+/* com position fixed vc pode rolar a pagina que o conteudo fica parado
+
+background-attachmet: fixed faz a mesma coisa mas com background
+*/
+#bloco02{
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition-property: all;
+    transition-duration: 2s;
+}
+#bloco02:hover{
+    background-color: purple;
+    width: 600px;
+    height: 600px;
+}
+h1{
+    color: blue;
+}
+P{
+    text-align: justify;
+    text-indent: 20px;
+}

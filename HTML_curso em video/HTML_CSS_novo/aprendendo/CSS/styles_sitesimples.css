@@ -23,9 +23,7 @@ header{
     background-color: var(--cor4);
     padding: 20px;
     text-align: center;
-}
-hr{
-    border-color: black;
+    border-bottom: var(--cor5) solid 1px;
 }
 nav {
     background-image: linear-gradient(to bottom, var(--cor4), var(--cor5));
@@ -35,6 +33,11 @@ nav {
 nav a{
     text-decoration: none;
     color: black;
+    border-right: var(--cor5) solid 1px;
+    border-left: var(--cor5) solid 1px;
+    margin: 1px;
+    padding-left: 3px;
+    padding-right: 3px;
 }
 p{
     font-family: var(--font_padrao);
@@ -79,7 +82,8 @@ aside a{
     transition: 500ms ease;
     border: 0px solid var(--cor4);
     text-decoration: none;
-    color: black
+    color: black;
+    padding-top: 8px;
 
 }
 aside a:hover{

@@ -57,5 +57,8 @@ main aside{
     main{
         display: block;
     }
-    
+    aside{
+        margin-left: 20px;
+        
+    }
 }

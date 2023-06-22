@@ -39,9 +39,12 @@ main {
 main article{
     max-width: 650px;
     flex: 50%;
-}
+    margin-left: auto;
+    margin-right: auto;
+}  
+
 main aside{
-    max-width: 200px;
+    max-width: 250px;
     flex: 50%;
     margin-left: auto;
     margin-right: auto;

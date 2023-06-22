@@ -41,6 +41,11 @@ main article{
     flex: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0px;
+    padding: 10px;
+    border: rgba(0, 0, 0, 0.148) solid 1px;
+    border-radius: 10px;
+    box-shadow: rgb(76, 76, 76) -1px 2px 4px 0px;
 }  
 
 main aside{
@@ -48,6 +53,20 @@ main aside{
     flex: 50%;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+    height: 315px;
+    padding-left: 0px;
+    border: rgba(0, 0, 0, 0.148) solid 1px;
+    border-radius: 10px;
+    box-shadow: rgb(76, 76, 76) -1px 2px 4px 0px;
+}
+div#lateral{
+    margin-left: 15px;
+    max-width: 650px;
+}
+main aside p{
+    margin: 0px;
+    margin-bottom: 10px;
 }
 #primeiro{
     margin-top: 0px;
@@ -57,8 +76,9 @@ main aside{
     main{
         display: block;
     }
-    aside{
-        margin-left: 20px;
-        
+    main aside{
+        margin: 0px;   
+        border: none;
+        box-shadow: none;
     }
 }

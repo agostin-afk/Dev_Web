@@ -12,30 +12,28 @@
             width: 350px;
             border-collapse: collapse;
         }
-        td{
+        td, th{
             border: 1px solid black;
             padding: 8px;
+        }
+        thead{
+            background-color: #8080809c;
         }
     </style>
 </head>
 <body>
-    <h1>minha primeira tabela</h1>
+    <h1>Uso de tabelas grandes</h1>
     <table>
-        <tr>
-            <td>a1</td>
-            <td>a2</td>
-            <td>a3</td>
-        </tr>
-        <tr>
-            <td>b1</td>
-            <td>b2</td>
-            <td>b3</td>
-        </tr>
-        <tr>
-            <td>c1</td>
-            <td>c2</td>
-            <td>c3</td>
-        </tr>
+        <thead>
+            <th>Estado</th>
+            <th>População</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São paulo</td>
+                <td>45 919 049</td>
+            </tr>
+        </tbody>
     </table>
 </body>
 </html>

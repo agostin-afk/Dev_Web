@@ -16,7 +16,7 @@
             border: 1px solid black;
             padding: 8px;
         }
-        thead{
+        thead, tfoot{
             background-color: #8080809c;
         }
     </style>
@@ -24,6 +24,7 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <th>Estado</th>
             <th>População</th>
@@ -33,7 +34,21 @@
                 <td>São paulo</td>
                 <td>45 919 049</td>
             </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td>21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td>17 264 943</td>
+            </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td>000000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>

@@ -26,33 +26,64 @@
         thead, tfoot{
             background-color: gray;
         }
+        /*
         tbody > tr:nth-child(2n){
             background-color: #8080809c;
             color: black;
         }
+        */
     </style>
 </head>
 <body>
+    <h1>Exercicio de tabela</h1>
     <table>
+        <caption>Filmes Favoritos</caption>
         <thead>
             <tr>
-                <td>Grupo</td>
-                <td>Nome</td>
-                <td colspan="2">Filmes</td>
+                <th>Grupo</th>
+                <th>Nome</th>
+                <th colspan="3">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="">Mulheres</td>
+                <th rowspan="3">Mulheres</th>
                 <td>mulher1</td>
-                <td>mulher2</td>
-                <td>mulher3</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
             </tr>
             <tr>
-                <td rowspan="">Homens</td>
+                <td>mulher2</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+            </tr>
+            <tr>
+                <td>mulher3</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">Homens</th>
                 <td>homem1</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+            </tr>
+            <tr>
                 <td>homem2</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+            </tr>
+            <tr>
                 <td>homem3</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
+                <td>[filme]</td>
             </tr>
         </tbody>
         <tfoot>

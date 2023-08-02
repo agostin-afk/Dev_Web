@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio da tabela</title>
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 350px;
+            border-collapse: collapse;
+            position: relative;
+                /*para efeito de colagem no scroll*/
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+        thead > tr, th{
+            position: sticky;
+            top: 0;
+            background-color: #808080;
+        }
+        thead, tfoot{
+            background-color: gray;
+        }
+        tbody > tr:nth-child(2n){
+            background-color: #8080809c;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <td>Grupo</td>
+                <td>Nome</td>
+                <td colspan="2">Filmes</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="">Mulheres</td>
+                <td>mulher1</td>
+                <td>mulher2</td>
+                <td>mulher3</td>
+            </tr>
+            <tr>
+                <td rowspan="">Homens</td>
+                <td>homem1</td>
+                <td>homem2</td>
+                <td>homem3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
